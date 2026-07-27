@@ -1,0 +1,20 @@
+=== virome-v2 final states ===
+=== all 6 have geNomad summary + checkv? ===
+  logan_ERR2726406: genomad=ok checkv=ok
+  logan_ERR2726443: genomad=ok checkv=ok
+  logan_SRR2912786: genomad=ok checkv=ok
+  ours_ERR2726406: genomad=ok checkv=ok
+  ours_ERR2726443: genomad=ok checkv=ok
+  ours_SRR2912786: genomad=ok checkv=ok
+
+=== VIRAL RECOVERY COMPARISON (geNomad + CheckV) ===
+sample              src        nVir  n>=5kb  n>=10kb   viral_Mb | CheckV Comp/High/Med/Low/NA
+ERR2726406          logan      1416     209       87       4.03 | 0/3/11/1013/389
+ERR2726406          ours        923     268      122       5.29 | 2/15/22/680/204
+ERR2726443          logan      1164     148       58       3.14 | 1/4/11/827/321
+ERR2726443          ours        719     207      103       4.58 | 2/17/13/531/156
+SRR2912786          logan      1093     144       74       2.86 | 1/3/10/728/351
+SRR2912786          ours        629     143       78       3.55 | 0/13/14/455/147
+-----------------------------------------------------------------------------------------------
+TOTAL (3 samples)   logan      3673     501      219      10.02 | 2/10/32/2568/1061
+TOTAL (3 samples)   ours       2271     618      303      13.42 | 4/45/49/1666/507

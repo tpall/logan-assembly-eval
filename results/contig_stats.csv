@@ -1,0 +1,12 @@
+metric,logan,ours_megahit,sample,note
+contigs,182027,24187,SRR2565980,detailed laptop comparison
+total_mb,87.0,55.5,SRR2565980,
+n50_bp,1596,11899,SRR2565980,
+max_contig_bp,109346,272892,SRR2565980,
+ge1kb,12363,7214,SRR2565980,
+ge5kb,2603,1991,SRR2565980,
+ge10kb,1051,1103,SRR2565980,
+contigs,472998,78455,ERR2726406,contig count only
+contigs,450597,64935,ERR2726443,contig count only
+contigs,348394,63767,SRR2912786,contig count only
+sra_coverage,29,30,cohort_sample,accessions present in Logan / probed

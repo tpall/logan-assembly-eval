@@ -1,0 +1,19 @@
+sample              src     MQ+bins  classfd    genera    species
+ERR2726406          logan        17       17        15         17
+ERR2726406          ours         25       25        22         24
+ERR2726443          logan         8        8         7          8
+ERR2726443          ours         24       24        21         24
+SRR2912786          logan        12       12        11         12
+SRR2912786          ours         17       17        15         17
+----------------------------------------------------------------------
+
+Genus recovery among MQ+ MAGs (Logan vs ours), per sample:
+  ERR2726406     shared=15  logan_only= 0  ours_only= 7  (logan 15 / ours 22 genera)
+     genera ONLY in ours (Logan missed): Bacteroides, CAG-170, Gemmiger, Hominicoprocola, Phascolarctobacterium_A, Ventricola, Vescimonas
+  ERR2726443     shared= 7  logan_only= 0  ours_only=14  (logan 7 / ours 21 genera)
+     genera ONLY in ours (Logan missed): Alistipes, Bacteroides, CAG-170, CAG-313, COE1, Faecalibacterium, Gemmiger, Hominicoprocola, Lachnospira, Parabacteroides, Roseburia, Ruminococcoides, UMGS872, Vescimonas
+  SRR2912786     shared= 8  logan_only= 3  ours_only= 7  (logan 11 / ours 15 genera)
+     genera ONLY in ours (Logan missed): CAG-103, Faecousia, Fusicatenibacter, Hominenteromicrobium, Lentihominibacter, Longibaculum, Longicatena
+     genera ONLY in Logan: Faecalibacillus, Holdemanella, Ruminococcoides
+
+Species-level (union over 3 samples): logan=37 ours=65 shared=32 ours_only=33 logan_only=5

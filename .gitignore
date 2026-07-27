@@ -1,0 +1,7 @@
+# large / regenerable data — never commit
+*.fa
+*.fasta
+*.bam
+*.zst
+mags.tar.gz
+per_sample.tar.gz
